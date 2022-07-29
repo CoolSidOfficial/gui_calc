@@ -12,7 +12,7 @@ A simple gui calculator made in python using the tkinter framework
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/CoolSidOfficial/gui_calc/blob/main/Capture.PNG)
 
 
 ## Installation
