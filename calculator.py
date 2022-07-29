@@ -1,6 +1,4 @@
-from codecs import BufferedIncrementalDecoder
-from doctest import master
-from textwrap import fill
+
 import tkinter 
 
 #--------------------------------------------------------------------------------------------------
@@ -43,7 +41,7 @@ but0=tkinter.Button(master=screen,text="0",width=15,height=4,fg="yellow",bg="bla
 but0.grid(row=6,column=1,sticky="nw",pady=5)
 dot=tkinter.Button(master=screen,text=".",width=15,height=4,fg="red",bg="black",cursor="plus",command=lambda :en1.insert("end",dot["text"]))
 dot.grid(row=6,column=0,sticky="nw",pady=5)
-#calcs
+#arithmetics
 clear=tkinter.Button(master=screen,text="CE",width=15,height=4,fg="red",bg="black",cursor="hand1",command=lambda  :en1.delete(0,"end"))
 clear.grid(row=6,column=2,sticky="nw",pady=5)
 add=tkinter.Button(master=screen,text="+",width=15,height=4,fg="green",bg="black",cursor="hand1",command=lambda :en1.insert("end","+"))
